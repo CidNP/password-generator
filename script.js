@@ -22,5 +22,23 @@ function getUppercase() {
         upperLetters.length)];
 }
 
-function 
+function getNumber() {
+    return numbers[Math.floor(Math.random() *
+        numbers.length)];
+}
+
+function getSymbol() {
+    return symbol[Math.floor(Math.random() *
+        symbol.length)];
+}
+
+function generatePassword() {
+    const len = lenEl.value; 
+    let password = "";
+    for (let i=0; i<len; i++){
+        const x = generateX();
+        password += X;
+    }
+    PwEl.innerText = password;
+}
 
