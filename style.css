@@ -48,3 +48,32 @@ body{
     border: none;
     cursor: pointer;
 }
+
+.pw:hover button{
+    opacity: 1;
+    transform: translate(0, -80%);
+}
+
+.pw-body{
+    padding: 0 1rem 1rem;
+}
+
+.form-control{
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.75rem 0;
+}
+
+.generate{
+    display: block;
+    background-color: #ecb602;
+    color: rgb(red, green, blue);
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}
